@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box; 
+ }
+ .body {
+     background: rgba(114, 1, 189, 0.493);
+     color: honeydew;
+ }
+ #game {
+     background-color: black;
+     border: 3px solid darkgrey;
+     border-radius: 70%;
+     width: 555px;
+     height: 253px;
+     padding-top: 11px;
+     text-align: center;
+     margin: auto;
+     margin-top: 3%;
+ }
+ h1 {
+     width: 195px;
+     margin: auto;
+ }
+ span {
+     padding: 11px;
+     font-size: 130%; 
+     margin-top: 19px;
+     display: inline-block;
+ }
+ #confirm {
+     border: none;
+     width: 99px;
+ }
+ #confirm:hover {
+     background-color: lightgreen;
+ }
+ #True,#False {
+     padding: 11px;
+     margin-top: 31px;
+     display: inline-block;
+ }
+ #True {
+     background-color: green;
+ }
+ #False {
+     background-color: red;
+ }
+ .txt {
+     width: 69%;
+     margin: auto;
+     
+     color: brown;
+ }
